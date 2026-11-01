@@ -1,0 +1,15 @@
+# SPDX-License-Identifier: Apache-2.0
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hivemind-receipts"
+version = "0.1.0"
+description = "Python SDK and offline Class-1 verifier for Hivemind Receipts (.hvr)"
+license = { text = "Apache-2.0" }
+requires-python = ">=3.10"
+dependencies = ["cryptography>=42.0.0"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
