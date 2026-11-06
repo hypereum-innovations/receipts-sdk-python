@@ -1,3 +1,5 @@
+> **Retired preview, not maintained.**
+
 # `receipts-sdk-python`
 
 SPDX-License-Identifier: Apache-2.0
